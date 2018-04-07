@@ -5,6 +5,9 @@ $array = array(1,2,3,4,5,6,7);
 $arrayAlias = array('lunes'=>'Monday','martes'=>'thursday',
 'miercoles'=>'Wednesday','jueves'=>'Thursday','viernes'=>'Friday');
 
+$arrayBidimensional= array(array('Juan','Moreno',19),
+array('Pepe','Arias',27));
+
 foreach ($array  as $value):
   echo($value);
   echo("<br/>");
@@ -26,4 +29,5 @@ foreach (array(1,2,3,4,5,6,7) as $key => &$value) {
   echo("<br/>");
 }
 
+echo("Apellido ".$arrayBidimensional[0][1]);
  ?>
