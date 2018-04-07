@@ -23,4 +23,31 @@ foreach (array(1,2,3,4,5,6,7) as $key => &$value) {
   echo("pos $key -- $value");
   echo("<br/>");
 }
+/*
+
+Monday
+thursday
+Wednesday
+Thursday
+Friday
+0 ---- 1
+1 ---- 2
+2 ---- 3
+3 ---- 4
+4 ---- 5
+5 ---- 6
+6 ---- 7
+lunes is Monday
+martes is thursday
+miercoles is Wednesday
+jueves is Thursday
+viernes is Friday
+1
+2
+3
+4
+5
+6
+7
+*/
  ?>
